@@ -9,14 +9,15 @@
   text-decoration: none;
 }
 
-.logo-studio-header {
-  color: #000000;
-}
-.logo-studio-footer {
-  color: var(--white-text-color);
-}
-.logo-web {
+.logo__text {
   color: var(--accent-color);
+
+  &--header {
+    color: #000000;
+  }
+  &--footer {
+    color: var(--white-text-color);
+  }
 }
 .logo-footer {
   margin-bottom: 20px;
